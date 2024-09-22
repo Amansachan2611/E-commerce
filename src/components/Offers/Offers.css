@@ -1,0 +1,46 @@
+/* Default Styles */
+.index-grid-img-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .index-grid-img-3 a {
+    flex-basis: 22%; /* Adjust the width of each item */
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .index-grid-img-3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* For tablets and smaller screens */
+  @media only screen and (max-width: 768px) {
+    .index-grid-img-3 a {
+      flex-basis: 48%; /* Increase the width of each item */
+    }
+  
+    .index-grid-img-3 img {
+      width: 100%;
+      max-width: none; /* Prevent the image from being constrained by a parent container's width */
+    }
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 576px) {
+    .index-grid-img-3 a {
+      flex-basis: 100%; /* Stack items vertically */
+    }
+  
+    .index-grid-img-3 img {
+      width: 10%; /* Increase image width for smaller screens */
+      max-width: none; /* Ensure the image is not constrained by the parent container's width */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  

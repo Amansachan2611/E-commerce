@@ -1,0 +1,141 @@
+/* Footer Styles */
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+  
+  .footer-column {
+    flex: 2;
+    min-width: 200px;
+    margin: 20px 0; /* Adds some margin between columns */
+  }
+  
+  .footer-heading {
+    letter-spacing: 2px;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 12px;
+    
+  }
+  
+  .footer-heading:after {
+    content: '';
+    width: 125px;
+    border-bottom: 1px solid #1bbc9b;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+  
+  }
+  
+  .footer-link {
+    margin-top: 20px;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+  }
+  
+  .footer-link li {
+    margin-bottom: 10px; /* Adds space between list items */
+  }
+  
+  .footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    text-decoration: none;
+    display: block; /* Ensures each link takes full width */
+    text-align: center;
+  }
+  
+  .footer-link a:hover {
+    color: #1bbc9b;
+  }
+  
+  .contact-info {
+    color: #acacac;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* .footer-social-icons {
+    display: flex;
+    flex-direction: column; 
+  } */
+  .list-inline{
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+  }
+  .footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px; /* Adds space between icons */
+    color: #ffffff; /* Ensures icons are white */
+   
+  }
+  
+  .footer-social-icon.facebook {
+    background-color: #4e71a8;
+  }
+  
+  .footer-social-icon.twitter {
+    background-color: #55acee;
+  }
+  
+  .footer-social-icon.google {
+    background-color: #d6492f;
+  }
+  
+  .footer-social-icon.apple {
+    background-color: #424041;
+  }
+  
+  .footer-alt {
+    color: #acacac;
+    font-size: 14px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  
+  .f-14 {
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+      align-items: center; /* Centers columns on mobile */
+    }
+  
+    .footer-column {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

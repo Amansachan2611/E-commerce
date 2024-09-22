@@ -1,0 +1,38 @@
+.seal {
+    text-align: center;
+    padding: 0px;
+  }
+   h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    align-items: center;
+    text-align: center;
+  }
+  .index-grid-img-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .index-grid-img-3 a img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Set a max-width for larger screens */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .index-grid-img-3 a img {
+      max-width: 90%; /* Adjust the image size for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .index-grid-img-3 a img {
+      max-width: 100%; /* Adjust the image size for mobile screens */
+    }
+  }
+  

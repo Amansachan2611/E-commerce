@@ -1,0 +1,169 @@
+/* General Styles */
+.new_offer {
+    margin-top: 10px;
+    padding-bottom: 25px;
+  }
+  
+  .banner {
+    min-width: fit-content;
+    height: 330px;
+    padding-bottom: 50px;
+    background: rgb(53, 53, 53);
+    background: linear-gradient(17deg, rgba(53, 53, 53, 1) 0%, rgba(175, 191, 191, 1) 100%);
+  }
+  
+  .banner .offer_content {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px;
+    font-family: "Poppins", sans-serif;
+    padding: 50px 0px 0px;
+  }
+  
+  .banner .offer_content .main_offer_heading {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 150;
+  }
+  
+  .banner .offer_content .sub_heading_offer {
+    color: #fff;
+    font-weight: 200;
+    font-size: 80px;
+    margin-top: -10px;
+  }
+  
+  .banner .offer_content .about {
+    color: #ffffff;
+    font-size: 21px;
+    margin-top: -30px;
+    padding-left: 8px;
+  }
+  
+  .banner .offer_content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 24px;
+    background: black;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px; /* Add margin to create space between the links */
+    box-shadow: 0 10px 20px rgba(212, 101, 101, 0.2);
+    transition: 0.5s;
+    align-content: space-between;
+  }
+  
+  .banner .offer_content a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 1200px) {
+    
+    .banner .offer_content {
+      margin: 40px;
+      padding: 40px 0px 0px;
+    }
+  
+    .banner .offer_content .main_offer_heading {
+      font-size: 24px;
+    }
+  
+    .banner .offer_content .sub_heading_offer {
+      font-size: 80px;
+      margin-top: -0px;
+  
+    }
+  
+    .banner .offer_content .about {
+      font-size: 19px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .banner{
+      height: 200px;
+    }
+    .banner .offer_content {
+      margin: 30px;
+      padding: 30px 0px 0px;
+    }
+  
+    .banner .offer_content .main_offer_heading {
+      font-size: 22px;
+      padding-top: -10px;
+      padding-bottom: 20px;
+    }
+  
+    .banner .offer_content .sub_heading_offer {
+      font-size: 50px;
+      margin-top: -60px;
+      padding-top: 10px;
+      font-weight: 510;
+    }
+  
+    .banner .offer_content .about {
+      font-size: 18px;
+    }
+  
+    .banner .offer_content a {
+      padding: 18px 10px;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .banner .offer_content {
+      margin: 20px;
+      padding: 20px 0px 0px;
+      text-align: center;
+    }
+  
+    .banner .offer_content .main_offer_heading {
+      font-size: 20px;
+    }
+  
+    .banner .offer_content .sub_heading_offer {
+      font-size: 40px;
+      margin-top: -40px;
+    }
+  
+    .banner .offer_content .about {
+      font-size: 16px;
+      padding-top: 20px;
+    }
+  
+    .banner .offer_content a {
+      padding: 6px 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .banner .offer_content {
+      margin: 10px;
+      padding: 10px 0px 0px;
+    }
+  
+    .banner .offer_content .main_offer_heading {
+      font-size: 18px;
+    }
+  
+    .banner .offer_content .sub_heading_offer {
+      font-size: 30px;
+      margin-top: -20px;
+    }
+  
+    .banner .offer_content .about {
+      font-size: 14px;
+    }
+  
+    .banner .offer_content a {
+      padding: 5px 12px;
+    }
+  }
+  

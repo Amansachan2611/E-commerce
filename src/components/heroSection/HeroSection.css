@@ -1,0 +1,32 @@
+.index-main-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 50px; Default padding for larger screens */
+}
+
+.index-main-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjustments for screens 748px and smaller */
+@media only screen and (max-width: 748px) {
+    .index-main-img {
+        padding-top: 30px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Adjustments for screens between 300px and 748px */
+@media only screen and (max-width: 300px) {
+    .index-main-img {
+        padding-top: 20px; /* Further adjust padding */
+    }
+}
+
+/* Adjustments for very small screens (less than 300px) */
+@media only screen and (max-width: 299px) {
+    .index-main-img {
+        padding-top: 10px; /* Minimal padding for very small screens */
+    }
+}
